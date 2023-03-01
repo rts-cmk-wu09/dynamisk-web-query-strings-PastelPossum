@@ -34,7 +34,7 @@ h1 {
 
     object-fit: cover;
 
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
 
 }
 
@@ -53,13 +53,31 @@ h1 {
 }
 
 .card-menu {
-
-    background-color: #CEF9FF;
+    
+    background-color: lavender;
 
     display: flex;
     justify-content: space-between;
     
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 20px 30px;
+    margin-top: -5px;
+    
+    border-radius: 0 0 11px 11px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.card-menu a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.card-menu a:hover {
+
+    text-decoration: underline;
 
 }
