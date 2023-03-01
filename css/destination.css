@@ -1,0 +1,65 @@
+.destination-wrapper {
+
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.destination-wrapper * {
+
+    margin-bottom: 30px;
+
+}
+
+.destination-wrapper img {
+
+    width: 50%;
+    aspect-ratio: 1/1;
+
+    /* object-fit: cover; */
+
+    margin-top: 70px
+
+}
+
+.des-info {
+
+    /* width: 35%; */
+
+}
+
+h2 {
+
+    font-size: 30px;
+
+}
+
+.title {
+
+    font-size: 40px;
+
+}
+
+.subtitle, .basic-info, li {
+
+    font-size: 20px;
+
+}
+
+.list-headline {
+
+    font-size: 25px;
+
+}
+
+h2, .title, .subtitle {
+
+    text-align: center;
+
+}
+
+h2, .subtitle {
+
+    font-weight: normal;
+
+}
