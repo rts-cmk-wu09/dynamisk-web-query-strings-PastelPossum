@@ -1,6 +1,7 @@
 .destination-wrapper {
 
     display: flex;
+
     font-family: 'Inter', sans-serif;
     
 }
@@ -16,7 +17,7 @@
     width: 50%;
     aspect-ratio: 1/1;
 
-    /* object-fit: cover; */
+    object-fit: cover;
 
     margin-top: 70px
 
@@ -24,7 +25,13 @@
 
 .des-info {
 
-    /* width: 35%; */
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
@@ -37,6 +44,7 @@ h2 {
 .title {
 
     font-size: 40px;
+    font-weight: 500;
 
 }
 
@@ -61,5 +69,24 @@ h2, .title, .subtitle {
 h2, .subtitle {
 
     font-weight: normal;
+
+}
+
+.basic-info {
+
+    max-width: 70%;
+
+}
+
+.facilities {
+
+    width: 100%;
+    max-width: 73%;
+
+}
+
+.list-headline {
+
+    margin-right: 60%;
 
 }

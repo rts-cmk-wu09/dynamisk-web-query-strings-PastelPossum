@@ -9,6 +9,7 @@ fetch(`./data/${id}.json`)
 
         document.querySelector("body").innerHTML += `
 
+        <div class="destination-wrapper">
         <img src="/img/${data.image}" alt="">
         
         <section class="des-info">
@@ -24,6 +25,7 @@ fetch(`./data/${id}.json`)
             <li>${data.facilities[3]}</li>
         </ul>
     </section>
+    </div>
         
         `
 
