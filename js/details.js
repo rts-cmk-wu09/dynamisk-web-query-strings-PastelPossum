@@ -9,11 +9,6 @@ fetch(`./data/${id}.json`)
 
         document.querySelector("body").innerHTML += `
 
-        <div class="fave">
-        <p>Favourite</p>
-        <i class="fa-regular fa-heart"></i>
-        </div>
-
         <div class="destination-wrapper">
         <img src="/img/${data.image}" alt="">
         
