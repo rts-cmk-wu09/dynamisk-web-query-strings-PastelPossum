@@ -10,8 +10,8 @@ fetch(`./data/${id}.json`)
         document.querySelector("body").innerHTML += `
 
         <div class="fave">
-        <i class="fa-regular fa-heart"></i>
         <p>Favourite</p>
+        <i class="fa-regular fa-heart"></i>
         </div>
 
         <div class="destination-wrapper">
