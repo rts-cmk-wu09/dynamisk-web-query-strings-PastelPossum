@@ -19,17 +19,20 @@ fetch("./data/destinations.json")
 
             destinationCards.innerHTML += `
             
-        <section class="apartment-card" id="${destination.id}">
+        <div class="apartment-card" id="${destination.id}">
         <img src="./img/${destination.image}" alt="">
         <section class="card-menu">
         <i class="fa-regular fa-heart"${localStorage.getItem(destination.id) ? "fa-solid fa-heart" : "fa-regular fa-heart"}></i>
         <p><a href="destination.html?id=${destination.id}">More</a></p>
         </section>
-        </section>
+        </div>
             
             `;
 
         });
 
     });
+
+    // ? - if 
+    // : - else
     
